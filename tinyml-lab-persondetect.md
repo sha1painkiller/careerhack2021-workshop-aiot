@@ -29,4 +29,4 @@
 ---
 ---
 ## Block diagram
-![](./images/mt3620-vision-ml-diagram.PNG)
+![](./images/mt3620-vision-ml-diagram.png)
