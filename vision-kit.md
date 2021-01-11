@@ -6,3 +6,4 @@ Check [prerequisits](./prerequisites.md) before hands-on labs.
     - recover Azure Sphere OS images
 4. claim your device ([more](https://docs.microsoft.com/en-us/azure-sphere/install/claim-device?tabs=cliv1))
 5. configure network setting ([more](https://docs.microsoft.com/en-us/azure-sphere/install/configure-wifi))
+6. (*board setting complete*) [go to project](./tinyml-lab-persondetect.md)
