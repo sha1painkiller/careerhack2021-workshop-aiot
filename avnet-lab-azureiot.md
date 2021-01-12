@@ -10,9 +10,9 @@
 
 ## Configure local applications
 1. Grab a local copy of the lab project
-    > git clone https://github.com/gloveboxes/Azure-Sphere-Learning-Path.git
+    > https://github.com/sha1painkiller/azureiot-lab-avnetdevkit.git
 1. We use lab2 to demonstarte Azure IoT capabilities
-    > cd Azure-Sphere-Learning-Path/Lab_2_Send_Telemetry_to_Azure_IoT
+    > cd azureiot-lab-avnetdevkit/codes/Lab_2_Send_Telemetry_to_Azure_IoT/
 1. Launch Visual Studio and open CMakeList.txt
 1. configure app_manifest.json - follow the [instruction](https://github.com/Azure/azure-sphere-samples/blob/master/Samples/AzureIoT/IoTCentral.md#configure-the-sample-application-to-work-with-your-azure-sphere-tenant-and-devices)
 1. Build and run the sample

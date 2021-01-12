@@ -23,7 +23,7 @@
     ![](./images/vs-rt-f5run.png)
 
 ## High-Level Core (A7)
-1. > git clone 
+1. > git clone \<TBD\>
 1. launch Visual Studio and open HL-core project CMakeListx.txt
 
     ![](./images/open-cmake.png)
