@@ -26,7 +26,7 @@
 1. > git clone \<TBD\>
 1. launch Visual Studio and open HL-core project CMakeListx.txt
 
-    ![](./images/open-cmake.png)
+    <!--- ![](./images/open-cmake.png) --->
 1. build and deploy the image to Azure Sphere A7 core
 
     ![](./images/vs-hl-f5run.png)
