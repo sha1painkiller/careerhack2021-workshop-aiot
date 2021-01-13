@@ -31,3 +31,8 @@ On-board sensors
 [Get started with Vision Kit](./vision-kit.md)
 
 [Machine learning lab - person detection](./tinyml-lab-persondetect.md)
+
+---
+
+## Integrate Azure IoT Central
+[steps](./integrate-iot-central.md)
