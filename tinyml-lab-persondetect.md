@@ -8,10 +8,17 @@
     - [Quantizing and converting to TensorFlow Lite](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/lite/micro/examples/person_detection/training_a_model.md#quantizing-and-converting-to-tensorflow-lite)
 1. Convert the FlatBuffer to C Array
     - [Converting into a C source file](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/lite/micro/examples/person_detection/training_a_model.md#converting-into-a-c-source-file)
-1. move the array file to the project space
+1. Move the array C and header files to the project space
+    - for ex: {ROOT}/tinyml-lab-visionkit/MT3620_M4_NeuroPilot-Micro/app/lib_src/person_detection_demo/
+        - person_detect_model_data.cc
+        - person_detect_model_data.h
+1. Inference Model framework
+    - {ROOT}/tinyml-lab-visionkit/MT3620_M4_NeuroPilot-Micro/app/lib_src/person_detection_demo/main.cc
+    - configure model input/output
+    - built together with model CC files as a static library for external linkage
 
-## Integrate the model with Azure Sphere RT (M4) core projects
-M4 core is used for ML computation 
+## Integrate the (above) ML inference model with Azure Sphere RT (M4) core projects
+MT3620 M4 core is used for ML computation in this context
 1. launch Visual Studio and open rt-core project CMakeListx.txt
     - {root}/MT3620_M4_NeuroPilot-Micro/app/vs_project/rtcore/CMakeList.txt
 
@@ -26,7 +33,7 @@ M4 core is used for ML computation
 1. stop the debugger
 
 ## High-Level (A7) Core project
-A7 core is used to handle system input(camera)/output(cloud connection)
+MT3620 A7 core is used to handle system input(camera)/output(cloud connection) and interact with M4 ML model.
 1. launch Visual Studio and open HL-core project CMakeListx.txt
     - {root}/MT3620_M4_NeuroPilot-Micro/app/vs_project/hlcore/CMakeList.txt
 
@@ -40,6 +47,7 @@ A7 core is used to handle system input(camera)/output(cloud connection)
 ![](./images/mt3620-vision-ml-diagram.png)
 
 ## Documentation
+note: the documents can only be available after signing an EULA agreement with MediaTek. Check the [MediaTek website](https://neuropilot.mediatek.com/resources/public/latest/en/docs/npu_introduction) for more informatio.
 {root}/MT3620_M4_NeuroPilot-Micro/doc/*
 - NeuroPilot-Micro MT3620 Demo v0.2 20200710.pdf
 - NeuroPilot-Micro MT3620 Getting started v0.2 20200710.pdf
