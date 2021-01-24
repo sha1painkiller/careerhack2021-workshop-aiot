@@ -1,5 +1,5 @@
 # Azure Sphere Vision Kit
-Check [prerequisits](./prerequisites.md) before hands-on labs.
+## Check [prerequisits](./prerequisites.md) before hands-on labs.
 1. Connect peripherals to the main board (ie. camera, usb, nfc)
 1. connect micro-usb plug with visio kit socket and the other end with laptop's USB type-A socket
 1. program FDTI EEPROM (for CLI tool to recognize Azure Sphere MT3620)
@@ -13,3 +13,12 @@ Check [prerequisits](./prerequisites.md) before hands-on labs.
 1. claim your device ([more](https://docs.microsoft.com/en-us/azure-sphere/install/claim-device?tabs=cliv1))
 1. configure network setting ([more](https://docs.microsoft.com/en-us/azure-sphere/install/configure-wifi))
 1. (*board setting complete*) [go to project](./tinyml-lab-persondetect.md)
+
+## Schematics
+- LCD headers
+
+    ![Vision Kit LCD headers](./images/schematics-lcd-header.png)
+- LED
+
+    ![LED pinout](./images/schematics-led.png)
+
