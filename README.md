@@ -1,5 +1,5 @@
 # Careerhack2021 Workshop Manual - AIoT
-Two development board will be used in this workshop. Both of the device are based on Microsoft [Azure Sphere](https://docs.microsoft.com/en-us/azure-sphere/) technology, which provides a highly secure solution to the IoT devices.
+Two development boards will be used in this workshop. Both of the devices are based on Microsoft [Azure Sphere](https://docs.microsoft.com/en-us/azure-sphere/) technology, which provides a highly secure solution to the IoT devices.
 
 ---
 ## Avnet MT3620 Start Kit
