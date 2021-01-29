@@ -22,3 +22,12 @@
 
     ![LED pinout](./images/schematics-led.png)
 
+## accessaries
+Reference display panel in this project 
+- ![display panel](./images/display_panel.jpg)
+- 2.8"TFT Touch Shield for Arduino w/Capacitive Touch Screen Module
+- Pin Header Connection-4-Wire SPI
+- VDD 3.3V
+- 2.8"Capacitive Touch Panel (for MNIST hand writing recognition)
+- you can buy it from [here](https://www.buydisplay.com/2-8-inch-tft-touch-shield-for-arduino-w-capacitive-touch-screen-module)
+
